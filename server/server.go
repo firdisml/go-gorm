@@ -133,7 +133,7 @@ func SetupAndListen() {
 	}))
 
 	router.Get("/r/:redirect", redirect)
-	router.Get("/gorm", getGorms)
+	router.Get("/gorms", getGorms)
 	router.Get("/gorm/:id", getGorm)
 	router.Post("/gorm", createGorm)
 	router.Patch("/gorm", updateGorm)
